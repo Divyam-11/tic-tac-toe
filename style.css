@@ -26,12 +26,13 @@
 }
 
 #msg {
-    color: #ffffc7;
+    color: black;
     font-size: 5vmin;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .hide {
-    visibility: hidden;
+   display: none;
 }
 
 #new-btn {
@@ -47,7 +48,7 @@
 }
 
 .msg-container {
-    display: flex;
+    text-align: center;
     justify-content: center;
     align-items: center;
     flex-direction: column;
